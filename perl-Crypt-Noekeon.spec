@@ -3,8 +3,8 @@
 %bcond_without	tests	# Do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Crypt
-%define	pnam	Noekeon
+%define		pdir	Crypt
+%define		pnam	Noekeon
 Summary:	Crypt::Noekeon - Crypt::CBC-compliant block cipher
 Summary(pl):	Crypt::Noekeon - szyfr blokowy kompatybilny z Crypt::CBC
 Name:		perl-Crypt-Noekeon
