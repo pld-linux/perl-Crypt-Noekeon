@@ -8,12 +8,12 @@
 Summary:	Crypt::Noekeon - Crypt::CBC-compliant block cipher
 Summary(pl):	Crypt::Noekeon - szyfr blokowy kompatybilny z Crypt::CBC
 Name:		perl-Crypt-Noekeon
-Version:	1.0.1
+Version:	1.0.2
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	411f60628c548c6ce946cf62b671e5f1
+# Source0-md5:	51fc0d4486e2f98cf433df4cf6c4dc6a
 BuildRequires:	perl-devel >= 5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
