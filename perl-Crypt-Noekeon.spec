@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	Noekeon
 Summary:	Crypt::Noekeon - Crypt::CBC-compliant block cipher
-Summary(pl):	Crypt::Noekeon - szyfr blokowy kompatybilny z Crypt::CBC
+Summary(pl.UTF-8):   Crypt::Noekeon - szyfr blokowy kompatybilny z Crypt::CBC
 Name:		perl-Crypt-Noekeon
 Version:	1.0.2
 Release:	1
@@ -24,11 +24,11 @@ Daemen, Michael Peeters, Vincent Rijmen, and Gilles Van Assche.
 Noekeon was submitted as a NESSIE candidate. This module supports
 the Crypt::CBC interface.
 
-%description -l pl
+%description -l pl.UTF-8
 Noekeon jest 128-bitowym szyfrem blokowym ze 128-bitowym kluczem,
 opracowanym przez Joan Daemen, Michaela Peetersa, Vincenta Rijmena
-i Gillesa Van Assche. Noekeon zosta≥ zg≥oszony jako kandydat do
-NESSIE. Ten modu≥ obs≥uguje interfejs Crypt::CBC.
+i Gillesa Van Assche. Noekeon zosta≈Ç zg≈Çoszony jako kandydat do
+NESSIE. Ten modu≈Ç obs≈Çuguje interfejs Crypt::CBC.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
