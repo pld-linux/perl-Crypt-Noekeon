@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	Noekeon
 Summary:	Crypt::Noekeon - Crypt::CBC-compliant block cipher
-Summary(pl.UTF-8):   Crypt::Noekeon - szyfr blokowy kompatybilny z Crypt::CBC
+Summary(pl.UTF-8):	Crypt::Noekeon - szyfr blokowy kompatybilny z Crypt::CBC
 Name:		perl-Crypt-Noekeon
 Version:	1.0.2
 Release:	1
