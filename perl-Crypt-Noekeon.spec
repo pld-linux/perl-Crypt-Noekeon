@@ -16,6 +16,7 @@ Source0:	http://www.cpan.org/modules/by-module/Crypt/%{pdir}-%{pnam}-%{version}.
 # Source0-md5:	51fc0d4486e2f98cf433df4cf6c4dc6a
 URL:		http://search.cpan.org/dist/Crypt-Noekeon/
 BuildRequires:	perl-devel >= 1:5.8.0
+%{?with_tests:BuildRequires:	perl-perldoc}
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
