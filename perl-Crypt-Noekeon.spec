@@ -65,7 +65,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/Crypt/Noekeon.pm
 %dir %{perl_vendorarch}/auto/Crypt/Noekeon
-%{perl_vendorarch}/auto/Crypt/Noekeon/Noekeon.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Crypt/Noekeon/Noekeon.so
 %{_mandir}/man3/*
 %attr(755,root,root) %{_examplesdir}/%{name}-%{version}
